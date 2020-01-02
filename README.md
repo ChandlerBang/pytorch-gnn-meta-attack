@@ -6,6 +6,15 @@ Implementation of the paper:
 
 Tensorflow implementation can be found [here](https://github.com/danielzuegner/gnn-meta-attack)
 
+## Requirements
+* Python 3.6 or newer
+* numpy
+* scipy
+* scikit-learn
+* pytorch
+* matplotlib (for plotting the results)
+* seaborn (for plotting the results)
+
 ## Usage
 To test the model, use the following command
 
