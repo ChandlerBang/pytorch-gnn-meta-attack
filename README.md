@@ -6,9 +6,18 @@ Implementation of the paper:
 
 Tensorflow implementation can be found [here](https://github.com/danielzuegner/gnn-meta-attack)
 
-The results on three datasets:
-![Results on Cora dataset](https://github.com/ChandlerBang/pytorch-gnn-meta-attack/blob/master/results/results_on_cora.png | width=100)
-![Results on Citeseer dataset](https://github.com/ChandlerBang/pytorch-gnn-meta-attack/blob/master/results/results_on_citeseer.png | width=100)
-![Results on Polblogs dataset](https://github.com/ChandlerBang/pytorch-gnn-meta-attack/blob/master/results/results_on_polblogs.png | width=100)
+## Usage
+To test the model, use the following command
+
+`python test_mettack.py`
+
+You can also add some additional configs
+
+`python test_mettack.py --dataset cora --ptb_rate 0.05 --model Meta-Self`
+
+## The results on three datasets:
 
 
+Cora            |  Citeseer | Polbogs
+:-------------------------:|:-------------------------:|:-------------------------:
+![](results/results_on_cora.png)  |  ![](results/results_on_citeseer.png)|![](results/results_on_polblogs.png)
