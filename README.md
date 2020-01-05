@@ -1,7 +1,5 @@
 # pytorch-gnn-meta-attack
-pytorch implementation of gnn meta attack (mettack)
-
-This repository is the pytorch implementation of the graph attack paper:
+pytorch implementation of gnn meta attack (mettack). This repository is the pytorch implementation of the graph attack paper:
 [Adversarial Attacks on Graph Neural Networks via Meta Learning](https://openreview.net/pdf?id=Bylnx209YX)
 
 Tensorflow implementation can be found [here](https://github.com/danielzuegner/gnn-meta-attack)
