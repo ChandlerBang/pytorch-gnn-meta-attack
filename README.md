@@ -1,7 +1,7 @@
 # pytorch-gnn-meta-attack
 pytorch implementation of gnn meta attack (mettack)
 
-Implementation of the paper:
+This repository is the pytorch implementation of the graph attack paper:
 [Adversarial Attacks on Graph Neural Networks via Meta Learning](https://openreview.net/pdf?id=Bylnx209YX)
 
 Tensorflow implementation can be found [here](https://github.com/danielzuegner/gnn-meta-attack)
@@ -11,7 +11,7 @@ Tensorflow implementation can be found [here](https://github.com/danielzuegner/g
 * numpy
 * scipy
 * scikit-learn
-* pytorch
+* pytorch 1.0 or newer
 * matplotlib (for plotting the results)
 * seaborn (for plotting the results)
 
@@ -27,6 +27,6 @@ You can also add some additional configs
 ## The results on three datasets:
 
 
-Cora            |  Citeseer | Polbogs
+Cora            |  Citeseer | Polblogs
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](results/results_on_cora.png)  |  ![](results/results_on_citeseer.png)|![](results/results_on_polblogs.png)
