@@ -20,7 +20,7 @@ def load_npz(file_name, is_sparse=True):
         file_name += '.npz'
 
     with np.load(file_name) as loader:
-        loader = dict(loader)
+        # loader = dict(loader)
         if is_sparse:
 
             adj = sp.csr_matrix((loader['adj_data'], loader['adj_indices'],
