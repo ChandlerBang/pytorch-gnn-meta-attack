@@ -16,11 +16,11 @@ Tensorflow implementation can be found [here](https://github.com/danielzuegner/g
 ## Usage
 To test the model, use the following command
 
-`python test_mettack.py`
+`python test_metattack.py`
 
 You can also add some additional configs
 
-`python test_mettack.py --dataset cora --ptb_rate 0.05 --model Meta-Self`
+`python test_metattack.py --dataset cora --ptb_rate 0.05 --model Meta-Self`
 
 ## The results on three datasets:
 
