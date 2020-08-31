@@ -321,10 +321,10 @@ class MetaApprox(BaseMeta):
 
             self.optimizer.zero_grad()
             loss_labeled.backward(retain_graph=True)
-            self.optimizer.step()
 
             self.adj_changes.grad.zero_()
             self.grad_sum += torch.autograd.grad(attack_loss, self.adj_changes, retain_graph=True)[0]
+            self.optimizer.step()
 
         loss_test_val = F.nll_loss(output[idx_unlabeled], labels[idx_unlabeled])
         print(f'GCN loss on unlabled data: {loss_test_val.item()}')
