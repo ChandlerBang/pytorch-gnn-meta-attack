@@ -4,6 +4,8 @@ pytorch implementation of gnn meta attack (mettack). This repository is the pyto
 
 Tensorflow implementation can be found [here](https://github.com/danielzuegner/gnn-meta-attack)
 
+**This method is included in [DeepRobust](https://github.com/DSE-MSU/DeepRobust), a very easy-to-use PyTorch Attack/Defense Library.**
+
 ## Requirements
 * Python 3.6 or newer
 * numpy
